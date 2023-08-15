@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "_putchar"
 
 /**
  * main - entry point
@@ -10,6 +10,6 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	pr("_putchar");
 	return (0);
 }
