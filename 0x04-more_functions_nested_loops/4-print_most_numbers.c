@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_numbers - prints unmbers from 0 to 9 except 2 and 4
- *
+ * Print_most_numbers - print 0 - 9 apart
+ * from 2 and 4 and you can only use _putchar twice
  * Return: 0 in success
 */
 
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int num = 0;
 
