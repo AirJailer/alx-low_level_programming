@@ -8,5 +8,6 @@
  * if not found
 */
 
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
+{}
 
