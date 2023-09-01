@@ -1,3 +1,10 @@
 #include "main.h"
 
-int _atoi(char *s);
+/**
+ * _atoi - empty func
+ * @s: string
+ * Return: nothing
+*/
+
+int _atoi(char *s)
+{}
