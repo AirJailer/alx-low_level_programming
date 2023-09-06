@@ -8,7 +8,7 @@
  * Return: int
  */
 
-int _strlrn(char *s)
+int _strlen(char *s)
 {
 	int size = 0;
 
@@ -40,7 +40,7 @@ char *argstostr(int ac, char **av)
 	if (s == 0)
 		return (NULL);
 
-	for (i = 0, i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++, cmpt++)
 			s[cmpt] = av[i][j];
