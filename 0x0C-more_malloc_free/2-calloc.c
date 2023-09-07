@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _memset - fills memory with a constant byte.
+ * *_memset - fills memory with a constant byte.
  * @s: pointer to put the constant
  * @b: constant
  * @n: max bytes to use
@@ -31,8 +31,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (size == 0 || nmemb == 0)
 		return (NULL);
 	m = malloc(sizeof(int) * nmemb);
+
 	if (m == 0)
 		return (NULL);
+
 	_memset(m, 0, sizeof(int) * nmemb);
 	return (m);
 }
