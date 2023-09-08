@@ -33,10 +33,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	m = malloc(sizeof(unsigned int) * nmemb);
 
 	if (m == 0)
+		return (NULL);
 	nmemb *= size;
-        while (nmemb--)
+	while (nmemb--)
 		m[nmemb] = 0;
-	return (NULL);
 
 	return (m);
 }
