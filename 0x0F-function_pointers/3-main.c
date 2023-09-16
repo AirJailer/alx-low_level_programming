@@ -1,5 +1,5 @@
 #include "3-calc.h"
-
+#include <stdio.h>
 /**
  * main - check the code for the school students
  * @argc: the number of args
