@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIH_H
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * struct list_s - singly linked list
