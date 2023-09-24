@@ -19,7 +19,7 @@ int main(void)
                     putchar(j);
                     putchar(m);
                 }
-                if (i + j != 113)
+                if (i + j + m != 168)
                 {    putchar(',');
                     putchar(' ');
                     
