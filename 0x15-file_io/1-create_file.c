@@ -1,5 +1,24 @@
 #include "main.h"
 
+
+/**
+ * _strlen - returns the length of string
+ * @s: the string to check length
+ * Return: integer lengthof a string
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+
+	while (*s++)
+		i++;
+	return (i);
+}
+
 /**
  * create_file - a function that creates a file.
  * @filename: name of file
