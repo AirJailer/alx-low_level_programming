@@ -4,7 +4,7 @@
 #define ERR_NOREAD "Error: Can't read from file %s\n"
 #define ERR_NOWRITE "Error: Can't write to %s\n"
 #define ERR_NOCLOSE "Error: Can't clode fd %d\n"
-#define PERMISSIONS (S_TRUSR | S_TWUSR | S_IRGRP | S_TWGRP | S_TROTH)
+#define PERMISSIONS (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH)
 
 /**
  * main - program
