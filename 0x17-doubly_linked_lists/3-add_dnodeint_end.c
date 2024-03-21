@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - adds a node at the end 
+ * add_dnodeint_end - adds a node at the end
  * @head: pointer to the list head
  * @n: int data
  * Return: address of new node ot NULL
