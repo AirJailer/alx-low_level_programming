@@ -5,7 +5,7 @@
  * @h: pointer to head
  * @idx: position to add
  * @n: int data
- * Return the address of the new node, or NULL if it failed
+ * Return: the address of the new node, or NULL if it failed
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -14,7 +14,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (idx == 0)
 		return (add_dnodeint(h, n));
-	
+
 	for (; idx != 1; idx--)
 	{
 		tmp = tmp->next;
